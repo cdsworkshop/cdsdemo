@@ -3,5 +3,5 @@ version: v1.0
 pipeline: build-pipeline
 payload:
   git.branch: "master"
-  git.repository: yesnault/cdsdemo
+  git.repository: cdsworkshop/cdsdemo
 application: cdsdemo  

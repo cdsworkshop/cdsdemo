@@ -5,5 +5,3 @@ payload:
   git.branch: "master"
   git.repository: yesnault/cdsdemo
 application: cdsdemo  
-pipeline_hooks:
-- type: Git Repository Poller

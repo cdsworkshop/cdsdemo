@@ -10,4 +10,4 @@ jobs:
       path: target/*.tar.gz
       tag: '{{.cds.version}}'
   requirements:
-  - binary: git
+  - model: openjdk-15-jdk-oracle

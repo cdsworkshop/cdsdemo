@@ -10,4 +10,4 @@ jobs:
       path: target/*.tar.gz
       tag: '{{.cds.version}}'
   requirements:
-  - model: openjdk-15-jdk-oracle
+  - model: maven3-jdk10-official

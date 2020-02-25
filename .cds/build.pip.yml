@@ -7,7 +7,7 @@ jobs:
   - script:
     - mvn package
   - artifactUpload:
-      path: target/*.tar.gz
+      path: target/*.jar
       tag: '{{.cds.version}}'
   requirements:
   - model: maven3-jdk10-official

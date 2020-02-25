@@ -5,7 +5,7 @@ jobs:
   steps:
   - checkout: '{{.cds.workspace}}'
   - script:
-    - echo 'foo'
+    - echo 'bar'
     - mvn package
   - artifactUpload:
       path: target/*.tar.gz

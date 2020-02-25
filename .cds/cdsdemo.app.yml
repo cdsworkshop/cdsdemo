@@ -1,7 +1,7 @@
 version: v1.0
 name: cdsdemo
 vcs_server: github
-repo: yesnault/cdsdemo
+repo: cdsworkshop/cdsdemo
 vcs_branch: '{{.git.branch}}'
 vcs_default_branch: master
 vcs_pgp_key: app-pgp-github

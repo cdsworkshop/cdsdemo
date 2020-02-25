@@ -1,0 +1,9 @@
+name: cdsdemo
+version: v1.0
+pipeline: build-pipeline
+payload:
+  git.branch: "master"
+  git.repository: yesnault/cdsdemo
+application: cdsdemo  
+pipeline_hooks:
+- type: Git Repository Poller

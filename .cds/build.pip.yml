@@ -1,0 +1,10 @@
+version: v1.0
+name: build-pipeline
+jobs:
+- job: First job
+  steps:
+  - checkout: '{{.cds.workspace}}'
+  - script : mvn package
+  - artifactUpload : target/*.jar 
+  requirements:
+  - binary: git
